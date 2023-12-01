@@ -1,0 +1,115 @@
+import ch.so.agi.gretl.tasks.*
+
+apply plugin: 'ch.so.agi.gretl'
+
+defaultTasks 'upd__4_000_000'
+
+/*
+Schritte für die lokale Skript-Ausführung:
+1. dbUriSimi, dbUserSimi, dbPwdSimi im gretljobs.properties auf die entsprechende SIMI-DB konfigurieren (Test, ...)
+2. Im bash-Fenster in den Ordner scale_shift wechseln und untenstehendes docker compose auführen
+
+docker compose run --rm -u $UID gretl
+*/
+task upd__100(type: SqlExecutor){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"100", newscale:"101"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__250(type: SqlExecutor, dependsOn: upd__100){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"250", newscale:"251"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__500(type: SqlExecutor, dependsOn: upd__250){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"500", newscale:"501"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__1_000(type: SqlExecutor, dependsOn: upd__500){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"1000", newscale:"1001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__2_000(type: SqlExecutor, dependsOn: upd__1_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"2000", newscale:"2001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__4_000(type: SqlExecutor, dependsOn: upd__2_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"4000", newscale:"4001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__6_000(type: SqlExecutor, dependsOn: upd__4_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"6000", newscale:"6001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__8_000(type: SqlExecutor, dependsOn: upd__6_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"8000", newscale:"8001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__10_000(type: SqlExecutor, dependsOn: upd__8_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"10000", newscale:"10001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__20_000(type: SqlExecutor, dependsOn: upd__10_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"20000", newscale:"20001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__40_000(type: SqlExecutor, dependsOn: upd__20_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"40000", newscale:"40001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__80_000(type: SqlExecutor, dependsOn: upd__40_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"80000", newscale:"80001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__200_000(type: SqlExecutor, dependsOn: upd__80_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"200000", newscale:"200001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__400_000(type: SqlExecutor, dependsOn: upd__200_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"400000", newscale:"400001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__1_000_000(type: SqlExecutor, dependsOn: upd__400_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"1000000", newscale:"1000001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__2_000_000(type: SqlExecutor, dependsOn: upd__1_000_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"2000000", newscale:"2000001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
+task upd__4_000_000(type: SqlExecutor, dependsOn: upd__2_000_000){
+    database = [dbUriSimi, dbUserSimi, dbPwdSimi]
+    sqlParameters = [oldscale:"4000000", newscale:"4000001"]
+    sqlFiles = ['scale_shift.sql']
+}
+
