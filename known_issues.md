@@ -29,6 +29,7 @@ Die Reduktion der Legende auf das aktuell im Kartenbild sichtbare ist nicht mög
 ## Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. Beispiel Siehe https://geo.so.ch/map/?k=5ca4b0779 
+
 QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt. Beispiel Siehe https://geo-t.so.ch/map/?k=d0562630f
 
 # Known Issues mit QGIS 2.16
