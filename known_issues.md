@@ -26,6 +26,10 @@ Die Reduktion der Legende auf das aktuell im Kartenbild sichtbare ist nicht mög
 
 ## Verändertes Verhalten des Transparenz-Rendering innerhalb Layer
 
+## Verändertes Verhalten von NULL (fehlende Werte) bei Jinja-Templates
+
+NULL-Value ist '-'. Beispiel '{% if feature.dokumente != '-' %}'
+
 ## Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>Beispiel Legende Siehe https://geo.so.ch/map/?k=5ca4b0779 
