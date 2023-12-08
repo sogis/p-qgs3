@@ -36,6 +36,11 @@ QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereic
 
 QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt. <br>Beispiel Legende Siehe https://geo-t.so.ch/map/?k=d0562630f
 
+## Verändertes Verhalten WGC Masstabsgrenzen in den QML-Files
+
+Neu müssen dar die Massstabsgrenze im QML-File nicht gleich sein wie die Massstabsgrenzen im Web GIS Client.<br>
+Die Massstabsgrenze im QML-File sollte mindestens +1 sein.
+
 # Known Issues mit QGIS 2.16
 
          Hier unterhalb werden die "known issues" dokumentiert, welche NICHT mit dem Versionsupdate zusammenhängen. Sprich komische Verhalten, welche heute auch auf der Produktion bestehen. 
