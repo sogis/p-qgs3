@@ -28,7 +28,7 @@ Die Reduktion der Legende auf das aktuell im Kartenbild sichtbare ist nicht mög
 
 ## Verändertes Verhalten von NULL (fehlende Werte) bei Jinja-Templates
 
-NULL-Value ist '-'. Beispiel '{% if feature.dokumente != '-' %}'
+NULL-Value ist `-`. Beispiel `{% if feature.dokumente != '-' %}`
 
 ## Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 
