@@ -41,6 +41,8 @@ QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt. <br>Beispi
 Neu müssen dar die Massstabsgrenze im QML-File nicht gleich sein wie die Massstabsgrenzen im Web GIS Client.<br>
 Die Massstabsgrenze im QML-File sollte mindestens +1 sein.
 
+## Aus `t` wird `true` und aus `f` wird `false`
+
 # Known Issues mit QGIS 2.16
 
          Hier unterhalb werden die "known issues" dokumentiert, welche NICHT mit dem Versionsupdate zusammenhängen. Sprich komische Verhalten, welche heute auch auf der Produktion bestehen. 
