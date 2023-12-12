@@ -3,7 +3,8 @@
         Hier unterhalb werden die "known issues" dokumentiert, welche mit dem Versionsupdate zusammenhängen
 
 ## für AGI-MA        
-### Aus `t` wird `true` und aus `f` wird `false`
+### Attribute vom Typ Boolean: Aus `t` wird `true` und aus `f` wird `false`
+Bei Attributen vom Typ Boolean gelten neu die Werte `true` und `false` im QML-File und im simi (Alt/QGIS2 `t` und `f`) <br> 
 
 ### Verändertes Verhalten WGC Massstabsgrenzen in den QML-Files
 Neu darf die Massstabsgrenze im QML-File nicht gleich sein wie die Massstabsgrenzen im Web GIS Client.<br>
