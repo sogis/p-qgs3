@@ -32,12 +32,13 @@ Die Reduktion der Legende auf das aktuell im Kartenbild sichtbare ist nicht mög
 [(NPL Grundnutzung)](https://geo-t.so.ch/api/v1/legend/somap?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=ch.so.arp.nutzungsplanung.grundnutzung&FORMAT=image%2Fpng&STYLE=default&SLD_VERSION=1.1.0)
 
 ## für AGI-MA und GIS Koordinatoren      
-### Veränderte Darstellung von 0-Values bei Attributen vom Typ Numeric
+### Veränderte Darstellung Objektinformation von 0-Values bei Attributen vom Typ Numeric
+Bei Attributen vom Typ Numeric wird der Wert `0` neu nicht mehr `0.00` sondern `0` in der Objektinformation dargestellt.<br>
+![Objektinfomation_0](./pictures/Objektinfo_numeric.PNG)
 
-
-### Verändertes Darstellung von NULL-Values bei Attributen vom Typ Varchar
-
-
+### Verändertes Darstellung Objektinformation von NULL-Values bei Attributen vom Typ Varchar
+Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern `-` in der Objektinformation dargestellt.<br>
+![Objektinfomation_0](./pictures/Objektinfo_NULL.PNG)
 
 ### Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>Beispiel Legende Siehe https://geo.so.ch/map/?k=5ca4b0779 <br>
