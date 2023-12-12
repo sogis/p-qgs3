@@ -45,12 +45,13 @@ QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereic
 QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt. <br>Beispiel Legende Siehe https://geo-t.so.ch/map/?k=d0562630f
 
 ### Verändertes Verhalten des Transparenz-Rendering innerhalb Layer
-
+<br>
 
 # Known Issues mit QGIS 2.16
 
          Hier unterhalb werden die "known issues" dokumentiert, welche NICHT mit dem Versionsupdate zusammenhängen. Sprich komische Verhalten, welche heute auch auf der Produktion bestehen. 
 
-## Layer mit definierter Transparenz im simi wird im WMS nicht transparent Dargestellt
+## für AGI-MA        
+### Layer mit definierter Transparenz im simi wird im WMS nicht transparent Dargestellt
 
 Beispiel: https://geo.so.ch/map/?k=8bb75fe88         
