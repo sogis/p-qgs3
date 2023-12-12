@@ -51,7 +51,7 @@ QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt. <br>Beispi
 
          Hier unterhalb werden die "known issues" dokumentiert, welche NICHT mit dem Versionsupdate zusammenhängen. Sprich komische Verhalten, welche heute auch auf der Produktion bestehen. 
 
-## für AGI-MA        
+## für AGI-MA und GIS Koordinatoren 
 ### Layer mit definierter Transparenz im simi wird im WMS nicht transparent Dargestellt
 
 Beispiel: https://geo.so.ch/map/?k=8bb75fe88         
