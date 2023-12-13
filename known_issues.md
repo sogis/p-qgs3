@@ -4,9 +4,9 @@
 
 ## für AGI-MA        
 ### Attribute vom Typ Boolean: Aus `t` wird `true` und aus `f` wird `false`
-Bei Attributen vom Typ Boolean gelten neu im QML-File und im simi die Werte `true` und `false` (Alt/QGIS2 `t` und `f`) <br> 
+Bei Attributen vom Typ Boolean gelten neu im QML-File und im simi die Werte `true` und `false` (Alt/QGIS2 `t` und `f`). <br> 
 Im QML-File betrifft das die Ausdrücke beim Filtern. Im simi betrifft das die WMS-Formatierung (in der Tabelle) und das Jinja-Template.
-<br>
+<br><br>
 Damit das QML-File Rückwärtskompatibel ist, haben wir alle Filterausdrück auf `xx='t' OR xx='true'` oder `xx='f' OR xx='false'` geändert.<br>
 An einem späteren Zeitpunkt werden wir diese Filterausdrücke auf `xx IS TRUE` oder `xx IS FALSE` umstellen.
 
