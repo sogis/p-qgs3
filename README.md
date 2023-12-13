@@ -8,6 +8,10 @@ Siehe [testumgebung_informationen.md](./testumgebung_informationen.md)
 
 Siehe [known_issues.md](./known_issues.md)
 
+## Changes
+
+Siehe [changes.md](./changes.md)
+
 ## Terminplanung der Einführung
 
 Siehe [terminplanung.md](./terminplanung.md)
