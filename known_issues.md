@@ -66,7 +66,7 @@ QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt.<br>
 
 ### Ausschnitt- und Massstabsunabhängige Legende
 Mit QGIS-Server-2 wurde die Legende einer Kartenebene im Web GIS Client nur angezeigt, wenn im aktuellen Kartenausschnitt Objekte von dieser Kartenebenen vorkommen.<br>
-Neu wird die Legende von der Kartenebene immer vollständig angezeigt. Unabhängig davon ob im aktuellen Kartenausschnitt Objekte vorkommen.
+Neu wird die Legende von der Kartenebene immer **vollständig** angezeigt. Unabhängig davon ob im aktuellen Kartenausschnitt Objekte vorkommen oder nicht.
 
 
 ### Verändertes Verhalten des Transparenz-Rendering innerhalb Layer
