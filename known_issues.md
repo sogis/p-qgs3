@@ -58,8 +58,12 @@ Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern `-` 
 ![Objektinfomation_0](./pictures/Objektinfo_NULL.PNG)
 
 ### Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
-QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>Beispiel Legende Siehe https://geo.so.ch/map/?k=5ca4b0779 <br>
-QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt. <br>Beispiel Legende Siehe https://geo-t.so.ch/map/?k=d0562630f
+QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>
+Beispiel Legende<br>
+![Objektinfomation_0](./pictures/Legende_Raster_Linear_alt.PNG)
+<br><br>
+QGIS Server 3: Die Legende<br>
+![Objektinfomation_0](./pictures/Legende_Raster_Linear_neu.PNG)
 
 ### Verändertes Verhalten des Transparenz-Rendering innerhalb Layer
 <br>
