@@ -16,12 +16,13 @@ Die Massstabsgrenze im QML-File sollte mindestens **+1** zur Massstabsgrenzen im
 <br><br>
 Betrifft: `minimumScale`, `maximumScale`, `scalemaxdenom` und `scalemindenom`
 <br><br>
-Beispiel: Ein Layer soll nur im Massstav 1:1 bis 1:20'000 im Web GIS Client sichtbar sein.<br>
+Beispiel: Ein Layer soll nur im Massstab 1:1 bis 1:20'000 im Web GIS Client sichtbar sein.<br>
 Im QML-File muss `maximumScale='200001'` definiert werden.
 
 ### Verändertes Verhalten von NULL (fehlende Werte) bei Jinja-Templates
-
-NULL-Value ist `-`. Beispiel `{% if feature.dokumente != '-' %}`
+Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern als `-` zurück gegeben. Das hat Einfluss auf Abfragen in den Jinja-Templates.<br>
+Neu muss man ein Attribut folgendermassen auf 'NULL'-Value abfragen:<br>
+`{% if feature.dokumente == '-' %}`
 
 ### Ausschnitt- und Massstabsunabhängige Legende
 
