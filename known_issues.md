@@ -12,7 +12,12 @@ An einem späteren Zeitpunkt werden wir diese Filterausdrücke auf `xx IS TRUE` 
 
 ### Verändertes Verhalten WGC Massstabsgrenzen in den QML-Files
 Neu darf die Massstabsgrenze im QML-File nicht gleich sein wie die Massstabsgrenzen im Web GIS Client.<br>
-Die Massstabsgrenze im QML-File sollte mindestens +1 zur Massstabsgrenzen im Web GIS Client sein.
+Die Massstabsgrenze im QML-File sollte mindestens **+1** zur Massstabsgrenzen im Web GIS Client sein.
+<br><br>
+Betrifft: `minimumScale`, `maximumScale`, `scalemaxdenom` und `scalemindenom`
+<br><br>
+Beispiel: Ein Layer soll nur im Massstav 1:1 bis 1:20'000 im Web GIS Client sichtbar sein.<br>
+Im QML-File muss `maximumScale='200001'` definiert werden.
 
 ### Verändertes Verhalten von NULL (fehlende Werte) bei Jinja-Templates
 
