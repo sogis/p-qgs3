@@ -27,8 +27,8 @@ Neu muss man ein Attribut folgendermassen auf 'NULL'-Value abfragen:<br>
 ### Symboldefinitionen mit Karteneinheiten => neu "Meter im Massstab"
 Bei einigen Layern wird die Strichdicke von bspw. Umrandungslinien in Karteneinheiten anstatt in mm definiert. Dies führt in gradbasierten Koordinatensystemen zu Problemen. 
 Dort werden die Linien sehr schnell sehr dick gerendert.
-<br>
-In QGIS Server 3 gibt es neu die Auswahlmöglichkeit **"Meter im Massstab"**. Anstelle von "Karteneinheiten" muss man neu "Meter im Massstab" verwenden.
+<br><br>
+In QGIS Server 3 gibt es neu die Auswahlmöglichkeit ***"Meter im Massstab"***. Anstelle von *"Karteneinheiten"* muss man neu *"Meter im Massstab"* verwenden.
 
 ### Ausschnitt- und Massstabsunabhängige Legende
 
