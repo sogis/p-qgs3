@@ -59,14 +59,18 @@ Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern `-` 
 
 ### Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>
-Beispiel Legende<br>
 ![Objektinfomation_0](./pictures/Legende_Raster_Linear_alt.PNG)
 <br><br>
-QGIS Server 3: Die Legende<br>
+QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt.<br>
 ![Objektinfomation_0](./pictures/Legende_Raster_Linear_neu.PNG)
 
+### Ausschnitt- und Massstabsunabhängige Legende
+Mit QGIS-Server-2 wurde die Legende einer Kartenebene im Web GIS Client nur angezeigt, wenn im aktuellen Kartenausschnitt Objekte von dieser Kartenebenen vorkommen.<br>
+Neu wird die Legende von der Kartenebene immer vollständig angezeigt. Unabhängig davon ob im aktuellen Kartenausschnitt Objekte vorkommen.
+
+
 ### Verändertes Verhalten des Transparenz-Rendering innerhalb Layer
-<br>
+<br>???
 
 # Known Issues mit QGIS 2.16
 
