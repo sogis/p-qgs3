@@ -69,9 +69,6 @@ Mit QGIS-Server-2 wurde die Legende einer Kartenebene im Web GIS Client nur ange
 Neu wird die Legende von der Kartenebene immer **vollständig** angezeigt. Unabhängig davon ob im aktuellen Kartenausschnitt Objekte vorkommen oder nicht.
 
 
-### Verändertes Verhalten des Transparenz-Rendering innerhalb Layer
-<br>???
-
 # Known Issues mit QGIS 2.16
 
          Hier unterhalb werden die "known issues" dokumentiert, welche NICHT mit dem Versionsupdate zusammenhängen. Sprich komische Verhalten, welche heute auch auf der Produktion bestehen. 
