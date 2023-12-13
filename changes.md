@@ -1,6 +1,6 @@
 # Changes aufgrund Versionsupdate auf 3.28
 
-        Hier unterhalb werden die "known issues" dokumentiert, welche mit dem Versionsupdate zusammenhängen
+        Hier unterhalb werden die "changes" dokumentiert, welche mit dem Versionsupdate zusammenhängen
 
 ## für AGI-MA        
 ### Attribute vom Typ Boolean: Aus `t` wird `true` und aus `f` wird `false`
