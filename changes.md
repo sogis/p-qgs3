@@ -69,7 +69,7 @@ Mit QGIS-Server-2 wurde die Legende einer Kartenebene im Web GIS Client nur ange
 Neu wird die Legende von der Kartenebene immer **vollständig** angezeigt. Unabhängig davon ob im aktuellen Kartenausschnitt Objekte vorkommen oder nicht.
 
 ### Verändertes Verhalten des Legende-Titels bei Rasterbilder
-Bei Rasterbildern wird neu beim Legende-Titel noch **Band 1 (Grey)** auf einer neuen Zeile aufgeführt.<br>
+in der Legende von Rasterbildern wird neu beim Legende-Titel noch **Band 1 (Grey)** auf einer separaten Zeile aufgeführt.<br>
 ![Objektinfomation_0](./pictures/Legende_Band2.PNG)
 
 
