@@ -68,6 +68,10 @@ QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt.<br>
 Mit QGIS-Server-2 wurde die Legende einer Kartenebene im Web GIS Client nur angezeigt, wenn im aktuellen Kartenausschnitt Objekte von dieser Kartenebenen vorkommen.<br>
 Neu wird die Legende von der Kartenebene immer **vollständig** angezeigt. Unabhängig davon ob im aktuellen Kartenausschnitt Objekte vorkommen oder nicht.
 
+### Verändertes Verhalten des Legende-Titels bei Rasterbilder
+Bei Rasterbildern wird neu beim Legende-Titel noch **Band 1 (Grey)** auf einer neuen Zeile aufgeführt.<br>
+![Objektinfomation_0](./pictures/Legende_Band2.PNG)
+
 
 # Known Issues mit QGIS 2.16
 
