@@ -57,8 +57,8 @@ Bei Attributen vom Typ Numeric wird der Wert `0` neu nicht mehr `0.00` sondern `
 Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern `-` in der Objektinformation dargestellt.<br>
 ![Objektinfomation_0](./pictures/Objektinfo_NULL.PNG)
 
-### Veränderte Darstellung bei objektbasierter Transparenz
-Wenn sich innerhalb eines Layers die Objekte überschneiden ist das Verhalten der transparenten Flächenfüllung nicht mehr gleich.<br>
+### Veränderte Darstellung bei objektbasierter Transparenz welche im simi konfiguriert ist
+Wenn die Transparenz einer Layers imi **simi** definiert ist, verhaltet sich die transparenten Flächenfüllung nicht mehr gleich.<br>
 Die sich überschneidenden Flächenabschnitte werden nicht mehr transparent übereinander Dargestellt.<br>
 QGIS Server 2: <br>
 ![Objektinfomation_0](./pictures/Transparenz_obj1.PNG) ![Objektinfomation_0](./pictures/Transparenz_obj3.PNG)
