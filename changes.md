@@ -57,9 +57,13 @@ Bei Attributen vom Typ Numeric wird der Wert `0` neu nicht mehr `0.00` sondern `
 Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern `-` in der Objektinformation dargestellt.<br>
 ![Objektinfomation_0](./pictures/Objektinfo_NULL.PNG)
 
-### Verändertes Darstellung objektbsierte Transparenz
-XXX.<br>
-![Objektinfomation_0](./pictures/Transparenz.PNG)
+### Veränderte Darstellung bei objektbasierte Transparenz
+Wenn sich innerhalb eines transparenten Layers die Objekte überschneiden ist das Verhalten nicht mher gleich.<br>
+QGIS Server 2: <br>
+![Objektinfomation_0](./pictures/Transparenz_obj1.PNG)
+<br>
+QGIS Server 3: <br>
+![Objektinfomation_0](./pictures/Transparenz_obj2.PNG)
 
 ### Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>
