@@ -58,7 +58,8 @@ Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern `-` 
 ![Objektinfomation_0](./pictures/Objektinfo_NULL.PNG)
 
 ### Veränderte Darstellung bei objektbasierte Transparenz
-Wenn sich innerhalb eines transparenten Layers die Objekte überschneiden ist das Verhalten nicht mher gleich.<br>
+Wenn sich innerhalb eines transparenten Layers die Objekte überschneiden ist das Verhalten der transparenten Flächenfüllung nicht mher gleich.<br>
+Die sich überschneidenden Flächenabschnitte werden nicht mehr transparent übereinander Dargestellt.<br>
 QGIS Server 2: <br>
 ![Objektinfomation_0](./pictures/Transparenz_obj1.PNG)
 <br>
