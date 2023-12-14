@@ -57,6 +57,10 @@ Bei Attributen vom Typ Numeric wird der Wert `0` neu nicht mehr `0.00` sondern `
 Bei Attributen vom Typ Varchar wird der Wert `NULL` nicht mehr leer sondern `-` in der Objektinformation dargestellt.<br>
 ![Objektinfomation_0](./pictures/Objektinfo_NULL.PNG)
 
+### Verändertes Darstellung objektbsierte Transparenz
+XXX.<br>
+![Objektinfomation_0](./pictures/Transparenz.PNG)
+
 ### Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>
 ![Objektinfomation_0](./pictures/Legende_Raster_Linear_alt.PNG)
@@ -69,7 +73,7 @@ Mit QGIS-Server-2 wurde die Legende einer Kartenebene im Web GIS Client nur ange
 Neu wird die Legende von der Kartenebene immer **vollständig** angezeigt. Unabhängig davon ob im aktuellen Kartenausschnitt Objekte vorkommen oder nicht.
 
 ### Verändertes Verhalten des Legende-Titels bei Rasterbilder
-in der Legende von Rasterbildern wird neu beim Legende-Titel noch **Band 1 (Grey)** auf einer separaten Zeile aufgeführt.<br>
+in der Legende von Rasterbildern wird neu beim Legende-Titel noch **Band 1 (Grey)** auf einer zusätzlichen Zeile aufgeführt.<br>
 ![Objektinfomation_0](./pictures/Legende_Band2.PNG)
 
 
