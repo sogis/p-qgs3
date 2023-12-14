@@ -65,6 +65,7 @@ QGIS Server 2: <br>
 <br>
 QGIS Server 3: <br>
 ![Objektinfomation_0](./pictures/Transparenz_obj2.PNG)
+![Objektinfomation_0](./pictures/Transparenz_obj4.PNG)
 
 ### Verändertes Verhalten der Legende bei Rasterbilder mit dem Interpolationstyp `Linear`
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt. <br>
