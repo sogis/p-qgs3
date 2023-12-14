@@ -1,0 +1,14 @@
+services:
+  gretl:
+    image: sogis/gretl:${GRETL_IMAGE_TAG:-2.2.414}
+    profiles: ["app"]
+    environment:
+      ORG_GRADLE_PROJECT_gretlEnvironment: development
+    entrypoint: ["gretl", "--project-cache-dir=/home/gradle/projectcache"]
+    volumes:
+      - type: bind
+        source: $HOME/gretljobs.properties
+        target: /home/gradle/.gradle/gradle.properties
+      - type: bind
+        source: .
+        target: /home/gradle/project
