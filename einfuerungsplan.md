@@ -18,7 +18,10 @@ Das Einführungsprojekt ist mit dem Rollout auf die Produktion abgeschlossen. Al
 |Etappe|Abschluss|
 |---|---|
 |Stabilisierung auf Testsystem|Ende 2023|
-|Installation und Feedback Aemter auf Integration|Mitte Februar 2024|
+|Rollout der letzten Aenderungen vor Migration|9. Januar|
+|Migration der Konfiguration auf QGIS Server 3|19. Januar|
+|Feedback Aemter auf Integration|2. Februar|
+|Rollout auf Produktion|7. Februar|
 
-Abschluss der Einführung von QGIS Server 3 ist damit Mitte Februar 2024.
+Abschluss der Einführung von QGIS Server 3 ist damit Anfang Februar 2024.
 
