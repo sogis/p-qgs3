@@ -5,14 +5,16 @@
 ### Transparenz wird auf Layer angewendet
 
 QGIS Server 3 - Transparenz per Layer:
+
 ![Objektinfomation_0](./pictures/map/Transparenz_obj2.PNG)
 ![Objektinfomation_0](./pictures/map/Transparenz_obj4.PNG)
 
 QGIS Server 2 - Transparenz per Feature:
+
 ![Objektinfomation_0](./pictures/map/Transparenz_obj1.PNG) 
 ![Objektinfomation_0](./pictures/map/Transparenz_obj3.PNG)
 
-Konsequenz: Sich überlagernde Features werden nicht mehr transparent übereinander dargestellt.
+**Konsequenz**: Sich überlagernde Features werden nicht mehr transparent übereinander dargestellt.
 
 ## Legende
 
@@ -31,6 +33,8 @@ QGIS Server 3: Die Legende wird Linear im Web GIS Client dargestellt.
 QGIS Server 2: Die Legende wird im Web GIS Client Horizontal gemäss Wertebereichsdefinition im QGIS dargestellt.
 
 ![Objektinfomation_0](./pictures/legend/Legende_Raster_Linear_alt.PNG)
+
+Hier besteht die Möglichkeit, vom neuen Standardverhalten abzuweichen und das "alte" Verhalten zu forcieren. Bitte meldet euch bei Anpassungswünschen.
 
 ### Für Raster-Layer erscheint hinter der Layer-Überschrift "Band 1 Gray"
 
